@@ -24,6 +24,7 @@ INC_D = inc
 #source files
 SRC = $(SRCS_D)/main.cpp \
 		$(SRCS_D)/buttons.cpp \
+		$(SRCS_D)/events.cpp \
 
 #include files
 INC = $(INC_D)/cal.hpp \

@@ -3,7 +3,7 @@
 /*  File:       buttons.cpp                                    /\_/\            */
 /*  Author:     Daniela Padilha                               ( o.o )           */
 /*  Created:    2025/07/16 20:07:26                            > ^ <            */
-/*  Updated:    2025/07/17 00:24:08                                             */
+/*  Updated:    2025/07/17 00:35:58                                             */
 /*                                                                              */
 /* ******************************************************************************/
 
@@ -14,7 +14,7 @@ void	layout(sf::RenderWindow& window)
 	sf::RectangleShape line;
 
 	//Horizontal lines
-	line.setSize(sf::Vector2f(480, BUTTON_THICKNESS));
+	line.setSize(sf::Vector2f(BUTTON_WIDTH, BUTTON_THICKNESS));
 	line.setFillColor(CustomColors::PRed);
 	line.setPosition(10, 10);
 	window.draw(line);
@@ -32,7 +32,7 @@ void	layout(sf::RenderWindow& window)
 	window.draw(line);
 
 	//Vertical lines
-	line.setSize(sf::Vector2f(BUTTON_THICKNESS, 450));
+	line.setSize(sf::Vector2f(BUTTON_THICKNESS, BUTTON_HEIGHT));
 	line.setPosition(130, 110);
 	window.draw(line);
 	line.setPosition(250, 110);

@@ -3,7 +3,7 @@
 /*  File:       main.cpp                                       /\_/\            */
 /*  Author:     Daniela Padilha                               ( o.o )           */
 /*  Created:    2025/07/16 20:07:37                            > ^ <            */
-/*  Updated:    2025/07/16 23:20:53                                             */
+/*  Updated:    2025/07/17 00:28:47                                             */
 /*                                                                              */
 /* ******************************************************************************/
 
@@ -21,6 +21,8 @@ int main ()
 			if (event.type == sf::Event::Closed
 				|| (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape))
 				window.close();
+			else
+				handleMouseClick(event);
 		}
 		window.clear(CustomColors::PYellow);
 		layout(window);

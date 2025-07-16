@@ -15,7 +15,8 @@
 
 const float SCREEN_SIZE = 480.0f;
 const float PADDING = 10.0f;
-const float BUTTON_SIZE = 160.0f;
+const float BUTTON_WIDTH = 480.0f;
+const float BUTTON_HEIGHT = 450.0f;
 const float BUTTON_THICKNESS = 3.5f;
 
 namespace CustomColors
@@ -29,5 +30,6 @@ void	layout(sf::RenderWindow& window);
 void 	drawText(sf::RenderWindow& window);
 void 	drawOperators(sf::RenderWindow& window, sf::Font& font);
 void 	drawSpecial(sf::RenderWindow& window, sf::Font& font);
+void 	handleMouseClick(sf::Event& event);
 
 #endif
