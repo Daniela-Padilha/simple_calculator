@@ -3,7 +3,7 @@
 /*  File:       main.cpp                                       /\_/\            */
 /*  Author:     Daniela Padilha                               ( o.o )           */
 /*  Created:    2025/07/16 20:07:37                            > ^ <            */
-/*  Updated:    2025/07/16 22:53:28                                             */
+/*  Updated:    2025/07/16 23:20:53                                             */
 /*                                                                              */
 /* ******************************************************************************/
 
@@ -24,6 +24,7 @@ int main ()
 		}
 		window.clear(CustomColors::PYellow);
 		layout(window);
+		drawText(window);
 		window.display();
 	}
 	return (0);

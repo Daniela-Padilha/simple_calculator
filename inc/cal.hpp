@@ -11,6 +11,7 @@
 # define CAL_HPP
 
 # include <SFML/Graphics.hpp>
+# include <iostream>
 
 const float SCREEN_SIZE = 480.0f;
 const float PADDING = 10.0f;
@@ -25,5 +26,6 @@ namespace CustomColors
 };
 
 void	layout(sf::RenderWindow& window);
+void 	drawText(sf::RenderWindow& window);
 
 #endif
