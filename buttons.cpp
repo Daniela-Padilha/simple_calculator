@@ -3,7 +3,7 @@
 /*  File:       buttons.cpp                                    /\_/\            */
 /*  Author:     Daniela Padilha                               ( o.o )           */
 /*  Created:    2025/07/16 20:07:26                            > ^ <            */
-/*  Updated:    2025/07/16 23:51:29                                             */
+/*  Updated:    2025/07/16 23:58:33                                             */
 /*                                                                              */
 /* ******************************************************************************/
 
@@ -57,7 +57,7 @@ void drawText(sf::RenderWindow& window)
 		return ;
 	}
 	int nbrs = 9;
-	int y = 130;
+	int y = 215;
 	int x = 300;
 	while (y <= 400)
 	{
@@ -75,4 +75,8 @@ void drawText(sf::RenderWindow& window)
 		y += 90;
 		x = 300;
 	}
+	sf::Text zero("0", font, 50);
+	zero.setFillColor(CustomColors::PRed);
+	zero.setPosition(180, 490);
+	window.draw(zero);
 }
