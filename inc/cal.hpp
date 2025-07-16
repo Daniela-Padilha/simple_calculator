@@ -27,5 +27,7 @@ namespace CustomColors
 
 void	layout(sf::RenderWindow& window);
 void 	drawText(sf::RenderWindow& window);
+void 	drawOperators(sf::RenderWindow& window, sf::Font& font);
+void 	drawSpecial(sf::RenderWindow& window, sf::Font& font);
 
 #endif
