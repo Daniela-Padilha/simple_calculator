@@ -1,2 +1,2 @@
 # simple_calculator
-A simple calculator GUI in C++
+Repository in the making...
